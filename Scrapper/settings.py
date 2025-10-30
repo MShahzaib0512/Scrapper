@@ -7,10 +7,10 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "Scraper"
+BOT_NAME = "Scrapper"
 
-SPIDER_MODULES = ["Scraper.spiders"]
-NEWSPIDER_MODULE = "Scraper.spiders"
+SPIDER_MODULES = ["Scrapper.spiders"]
+NEWSPIDER_MODULE = "Scrapper.spiders"
 
 ADDONS = {}
 
@@ -85,4 +85,4 @@ DOWNLOAD_DELAY = 1
 
 # Set settings whose default value is deprecated to a future-proof value
 FEED_EXPORT_ENCODING = "utf-8"
-default = 'Scraper.settings'
+default = 'Scrapper.settings'
