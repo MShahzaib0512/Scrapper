@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+env/
+.screnv/
+.scrapy/
+*.egg-info/
+
+# Scrapy output files
+output.csv
+output.json
+output.xml
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python build artifacts
+build/
+dist/
+.eggs/
+*.egg
+
+# Jupyter / Notebooks
+.ipynb_checkpoints/
+
+# Local settings or credentials
+*.env
+.env*
+config.json
+settings_local.py
